@@ -17,6 +17,9 @@
 		B96C441724EA213D008A4578 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96C441624EA213D008A4578 /* TagViewController.swift */; };
 		B96C441D24EA2241008A4578 /* SentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96C441C24EA2241008A4578 /* SentTableViewController.swift */; };
 		B96C441F24EA2298008A4578 /* RecievevdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96C441E24EA2298008A4578 /* RecievevdTableViewController.swift */; };
+		B9FA0B6124F12DE100650158 /* DetailModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FA0B6024F12DE100650158 /* DetailModelViewController.swift */; };
+		B9FA0B6324F12E5B00650158 /* SendingHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FA0B6224F12E5B00650158 /* SendingHistoryTableViewController.swift */; };
+		B9FA0B6524F12E6F00650158 /* RecievingHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FA0B6424F12E6F00650158 /* RecievingHistoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		B96C441624EA213D008A4578 /* TagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
 		B96C441C24EA2241008A4578 /* SentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentTableViewController.swift; sourceTree = "<group>"; };
 		B96C441E24EA2298008A4578 /* RecievevdTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecievevdTableViewController.swift; sourceTree = "<group>"; };
+		B9FA0B6024F12DE100650158 /* DetailModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModelViewController.swift; sourceTree = "<group>"; };
+		B9FA0B6224F12E5B00650158 /* SendingHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingHistoryTableViewController.swift; sourceTree = "<group>"; };
+		B9FA0B6424F12E6F00650158 /* RecievingHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecievingHistoryTableViewController.swift; sourceTree = "<group>"; };
 		BC7ED6EE93495143F1F1D97F /* Pods-BaseViewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseViewSample.release.xcconfig"; path = "Target Support Files/Pods-BaseViewSample/Pods-BaseViewSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +87,9 @@
 				B94E3CF224E9897200520BCB /* SceneDelegate.swift */,
 				B94E3CF424E9897200520BCB /* ViewController.swift */,
 				B94E3CF624E9897200520BCB /* Main.storyboard */,
+				B9FA0B6024F12DE100650158 /* DetailModelViewController.swift */,
+				B9FA0B6224F12E5B00650158 /* SendingHistoryTableViewController.swift */,
+				B9FA0B6424F12E6F00650158 /* RecievingHistoryTableViewController.swift */,
 				B94E3CF924E9897300520BCB /* Assets.xcassets */,
 				B96C441624EA213D008A4578 /* TagViewController.swift */,
 				B96C441C24EA2241008A4578 /* SentTableViewController.swift */,
@@ -220,7 +229,10 @@
 				B94E3CF124E9897200520BCB /* AppDelegate.swift in Sources */,
 				B96C441F24EA2298008A4578 /* RecievevdTableViewController.swift in Sources */,
 				B94E3CF324E9897200520BCB /* SceneDelegate.swift in Sources */,
+				B9FA0B6124F12DE100650158 /* DetailModelViewController.swift in Sources */,
 				B96C441724EA213D008A4578 /* TagViewController.swift in Sources */,
+				B9FA0B6524F12E6F00650158 /* RecievingHistoryTableViewController.swift in Sources */,
+				B9FA0B6324F12E5B00650158 /* SendingHistoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
