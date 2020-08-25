@@ -38,13 +38,26 @@
                                     <segue destination="mfb-W8-Y3R" kind="show" id="gvw-Ra-7iN"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VjL-BR-kPi">
+                                <rect key="frame" x="131" y="578" width="152" height="36"/>
+                                <color key="backgroundColor" red="0.58105844259999995" green="0.12855249639999999" blue="0.57453137639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Detail StoryBoard">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="detailStoryBoard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vcT-86-p3X"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="VjL-BR-kPi" firstAttribute="top" secondItem="hfZ-vC-jdA" secondAttribute="bottom" constant="20" id="0UO-RO-tbb"/>
                             <constraint firstItem="Axd-ND-hy2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Uxb-ow-1Ti"/>
                             <constraint firstItem="hfZ-vC-jdA" firstAttribute="top" secondItem="Axd-ND-hy2" secondAttribute="bottom" constant="20" id="Zsw-GG-mXg"/>
                             <constraint firstItem="hfZ-vC-jdA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="chH-Ie-eLp"/>
                             <constraint firstItem="Axd-ND-hy2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gAb-81-NIH"/>
+                            <constraint firstItem="VjL-BR-kPi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l7b-3e-aYs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

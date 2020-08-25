@@ -16,6 +16,12 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func detailStoryBoard(_ sender: Any) {
+        let sampleSB = UIStoryboard(name: "Base", bundle: nil)
+        let sampleVC = sampleSB.instantiateViewController(withIdentifier: "Base")
+        self.navigationController?.pushViewController(sampleVC, animated: true)
+        
+    }
     
 }
 

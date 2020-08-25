@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		025E6C091E892737C5341608 /* Pods_BaseViewSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A675C061F0B05DAFE45E754D /* Pods_BaseViewSample.framework */; };
+		B94A86D024F23A01008E428C /* Base.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94A86CF24F23A01008E428C /* Base.storyboard */; };
+		B94A86D224F23A4D008E428C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94A86D124F23A4D008E428C /* BaseViewController.swift */; };
+		B94A86F824F33DCF008E428C /* SendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94A86F724F33DCF008E428C /* SendTableViewController.swift */; };
+		B94A86FA24F33DE4008E428C /* RecieveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94A86F924F33DE4008E428C /* RecieveTableViewController.swift */; };
 		B94E3CF124E9897200520BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94E3CF024E9897200520BCB /* AppDelegate.swift */; };
 		B94E3CF324E9897200520BCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94E3CF224E9897200520BCB /* SceneDelegate.swift */; };
 		B94E3CF524E9897200520BCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94E3CF424E9897200520BCB /* ViewController.swift */; };
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		66176C9E6757220D9D8173AF /* Pods-BaseViewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseViewSample.debug.xcconfig"; path = "Target Support Files/Pods-BaseViewSample/Pods-BaseViewSample.debug.xcconfig"; sourceTree = "<group>"; };
 		A675C061F0B05DAFE45E754D /* Pods_BaseViewSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseViewSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94A86CF24F23A01008E428C /* Base.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.storyboard; sourceTree = "<group>"; };
+		B94A86D124F23A4D008E428C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B94A86F724F33DCF008E428C /* SendTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTableViewController.swift; sourceTree = "<group>"; };
+		B94A86F924F33DE4008E428C /* RecieveTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieveTableViewController.swift; sourceTree = "<group>"; };
 		B94E3CED24E9897200520BCB /* BaseViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94E3CF024E9897200520BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B94E3CF224E9897200520BCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +104,10 @@
 				B96C441E24EA2298008A4578 /* RecievevdTableViewController.swift */,
 				B94E3CFB24E9897300520BCB /* LaunchScreen.storyboard */,
 				B94E3CFE24E9897300520BCB /* Info.plist */,
+				B94A86CF24F23A01008E428C /* Base.storyboard */,
+				B94A86D124F23A4D008E428C /* BaseViewController.swift */,
+				B94A86F724F33DCF008E428C /* SendTableViewController.swift */,
+				B94A86F924F33DE4008E428C /* RecieveTableViewController.swift */,
 			);
 			path = BaseViewSample;
 			sourceTree = "<group>";
@@ -170,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B94E3CFD24E9897300520BCB /* LaunchScreen.storyboard in Resources */,
+				B94A86D024F23A01008E428C /* Base.storyboard in Resources */,
 				B94E3CFA24E9897300520BCB /* Assets.xcassets in Resources */,
 				B94E3CF824E9897200520BCB /* Main.storyboard in Resources */,
 			);
@@ -224,11 +237,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94A86F824F33DCF008E428C /* SendTableViewController.swift in Sources */,
 				B94E3CF524E9897200520BCB /* ViewController.swift in Sources */,
 				B96C441D24EA2241008A4578 /* SentTableViewController.swift in Sources */,
 				B94E3CF124E9897200520BCB /* AppDelegate.swift in Sources */,
 				B96C441F24EA2298008A4578 /* RecievevdTableViewController.swift in Sources */,
 				B94E3CF324E9897200520BCB /* SceneDelegate.swift in Sources */,
+				B94A86FA24F33DE4008E428C /* RecieveTableViewController.swift in Sources */,
+				B94A86D224F23A4D008E428C /* BaseViewController.swift in Sources */,
 				B9FA0B6124F12DE100650158 /* DetailModelViewController.swift in Sources */,
 				B96C441724EA213D008A4578 /* TagViewController.swift in Sources */,
 				B9FA0B6524F12E6F00650158 /* RecievingHistoryTableViewController.swift in Sources */,
